@@ -1,7 +1,15 @@
 
 # Custom C Compiler Command
 
-Custom Command to compile & run c program in the Windows Terminal.
+A Powershell Command that writes: 
+```powershell
+gcc -o filename.exe filename.c && filename.exe
+```
+by simply writing:
+```powershell
+c filename 
+```
+[without any *.c&*.exe]
 
 
 ## Installation
